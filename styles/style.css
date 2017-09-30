@@ -11,22 +11,38 @@ body {
   background-size: cover;
 }
 
+footer {
+  background: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  text-align: center;
+}
+
 h1 {
   font-family: 'Kaushan Script', cursive;
+}
+
+hr {
+  border-color: rgba(0, 0, 0, 1);
+  max-width: 400px;
 }
 
 .box {
   margin: 20px;
   padding: 20px;
-  color: #fff;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .box h2 {
+  font-family: 'Kaushan Script', cursive;
   text-align: center;
 }
 
 .box p {
-  text-align: center;
+  font-family: "Verdana", sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  margin: 20px;
+  text-align: justify;
 }
 
 .brand {
@@ -40,8 +56,9 @@ h1 {
 }
 
 .img {
-  height: 50%;
-  width: 50%;
+  display: inline-block;
+  height: 40%;
+  width: 40%;
 }
 
 .img-left {
