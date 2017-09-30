@@ -20,7 +20,10 @@ footer {
   margin-top: 20px;
   padding: 10px 0;
   position: relative;
+  bottom: 0;
+  left: 0;
   text-align: center;
+  width: 100%;
 }
 
 h1 {
