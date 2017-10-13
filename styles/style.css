@@ -4,6 +4,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .card-custom-top {
+    margin-bottom: 30px;
+  }
+}
+
 body {
   /*!
    * Photo by Ales Krivic
@@ -12,18 +18,17 @@ body {
    */
   background-attachment: fixed;
   background-image: url("../images/background.jpeg");
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.card-img-bottom {
-  height: 100%;
-  width: 100%;
-}
-
-.card-img-test {
-  height: 300px;
+hr {
+  background-color: rgba(0, 0, 0, 1);
+  border: 0;
+  display:block;
+  height: 1px;
+  width: 75%;
 }
 
 .brand {
@@ -37,8 +42,37 @@ body {
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
 }
 
+.card {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.card-background {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 15px 0;
+  padding: 30px;
+}
+
+.card-text {
+  font-family: "Verdana", sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.card-title {
+  font-family: "Kaushan Script", Georgia, serif;
+  text-align: center;
+}
+
+.col-sm-8 {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 30px;
 }
 
 .navbar .navbar-nav li {
