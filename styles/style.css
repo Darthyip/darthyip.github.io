@@ -1,14 +1,6 @@
-@media screen and (min-width: 768px) {
-  .navbar-brand {
-    display: none;
-  }
-}
 
-@media (max-width: 768px) {
-  .card-custom-top {
-    margin-bottom: 30px;
-  }
-}
+
+
 
 body {
   /*!
@@ -96,4 +88,22 @@ hr {
   margin: 0 0 20px 0;
   text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: 3.5em;
+  }
+  .sub-brand {
+    font-size: 1.5em;
+  }
+  .card-custom-top {
+    margin-bottom: 30px;
+  }
 }
