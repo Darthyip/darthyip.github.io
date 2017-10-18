@@ -1,7 +1,3 @@
-
-
-
-
 body {
   /*!
    * Photo by Ales Krivic
@@ -27,7 +23,7 @@ hr {
   background-color: transparent;
   color: rgba(220, 130, 30, 1);
   font-family: "Kaushan Script", Georgia, serif;
-  font-size: 5em;
+  font-size: 4.5em;
   margin: 0;
   padding: 20px 0 5px 0;
   text-align: center;
@@ -41,13 +37,14 @@ hr {
 
 .card-background {
   background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0;
   margin: 15px 0;
   padding: 30px;
 }
 
 .card-text {
   font-family: "Verdana", sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   font-weight: 600;
   text-align: justify;
 }
@@ -57,9 +54,58 @@ hr {
   text-align: center;
 }
 
-.col-sm-8 {
-  margin: 0;
-  padding: 0;
+.img-dog {
+  /*!
+   * Photo by Pixabay
+   * https://www.pexels.com/photo/golden-retriever-dog-wearing-red-collar-56012/
+   * https://www.pexels.com/photo-license/
+   */
+  background-image: url("../images/dog.jpeg");
+  background-position: 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+}
+
+.img-therapy {
+  /*!
+   * Photo by Pixabay
+   * https://www.pexels.com/photo/aromatherapy-bamboo-basket-candlelight-259810/
+   * https://www.pexels.com/photo-license/
+   */
+  background-image: url("../images/therapy.jpeg");
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+  margin-bottom: 30px;
+}
+
+.img-rocks {
+  /*!
+   * Photo by Pixabay
+   * https://www.pexels.com/photo/balance-macro-ocean-pebbles-235990/
+   * https://www.pexels.com/photo-license/
+   */
+  background-image: url("../images/rocks.jpeg");
+  background-position: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em; 
+}
+
+.img-silhouette {
+  /*!
+   * Photo by Pixabay
+   * https://www.pexels.com/photo/backlit-beach-clouds-dawn-531089/
+   * https://www.pexels.com/photo-license/
+   */
+  background-image: url("../images/silhouette.jpeg");
+  background-position: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20em;
+  margin-bottom: 30px;
 }
 
 .navbar {
@@ -90,20 +136,14 @@ hr {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
+  .img-therapy {
+    margin-bottom: 0;
+  }
+  .img-silhouette {
+    margin-bottom: 0;
+  }
   .navbar-brand {
     display: none;
-  }
-}
-
-@media (max-width: 768px) {
-  .brand {
-    font-size: 3em;
-  }
-  .sub-brand {
-    font-size: 1.5em;
-  }
-  .card-custom-top {
-    margin-bottom: 30px;
   }
 }
