@@ -20,14 +20,17 @@ hr {
 }
 
 .brand {
-  background-color: transparent;
-  color: rgba(220, 130, 30, 1);
   font-family: "Kaushan Script", Georgia, serif;
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 0;
   padding: 20px 0 5px 0;
-  text-align: center;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.brand, .sub-brand {
+  background-color: transparent;
+  color: rgba(220, 130, 30, 1);
+  text-align: center;
 }
 
 .card {
@@ -54,6 +57,14 @@ hr {
   text-align: center;
 }
 
+.img-dog, .img-rocks, .img-silhouette, .img-therapy {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14em;
+  margin: auto;
+  width: 70%;
+}
+
 .img-dog {
   /*!
    * Photo by Pixabay
@@ -62,23 +73,7 @@ hr {
    */
   background-image: url("../images/dog.jpeg");
   background-position: 20%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20em;
-}
-
-.img-therapy {
-  /*!
-   * Photo by Pixabay
-   * https://www.pexels.com/photo/aromatherapy-bamboo-basket-candlelight-259810/
-   * https://www.pexels.com/photo-license/
-   */
-  background-image: url("../images/therapy.jpeg");
-  background-position: 70%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20em;
-  margin-bottom: 30px;
+  margin-top: 15px
 }
 
 .img-rocks {
@@ -89,9 +84,7 @@ hr {
    */
   background-image: url("../images/rocks.jpeg");
   background-position: 90%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20em; 
+  margin-top: 15px;
 }
 
 .img-silhouette {
@@ -102,9 +95,17 @@ hr {
    */
   background-image: url("../images/silhouette.jpeg");
   background-position: 35%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 20em;
+  margin-bottom: 30px;
+}
+
+.img-therapy {
+  /*!
+   * Photo by Pixabay
+   * https://www.pexels.com/photo/aromatherapy-bamboo-basket-candlelight-259810/
+   * https://www.pexels.com/photo-license/
+   */
+  background-image: url("../images/therapy.jpeg");
+  background-position: 70%; 
   margin-bottom: 30px;
 }
 
@@ -127,12 +128,9 @@ hr {
 }
 
 .sub-brand {
-  background-color: transparent;
-  color: rgba(220, 130, 30, 1);
   font-family: "Verdana", Helvetica, sans-serif;
   font-size: 1.5em;
   margin: 0 0 20px 0;
-  text-align: center;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
 
@@ -140,10 +138,14 @@ hr {
   .brand {
     font-size: 4.5em;
   }
-  .img-therapy {
-    margin-bottom: 0;
+  .img-dog, .img-rocks, .img-silhouette, .img-therapy {
+    height: 20em;
+    width: 100%;
   }
-  .img-silhouette {
+  .img-dog, .img-rocks {
+    margin-top: 0;
+  }
+  .img-silhouette, .img-therapy {
     margin-bottom: 0;
   }
   .navbar .navbar-nav li {
