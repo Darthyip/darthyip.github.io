@@ -67,7 +67,7 @@ hr {
   background-size: cover;
   height: 14em;
   margin: auto;
-  width: 70%;
+  width: 80%;
 }
 
 .img-dog {
@@ -141,7 +141,7 @@ hr {
 
 @media (min-width: 768px) {
   .brand {
-    font-size: 4.5em;
+    font-size: 4em;
   }
   .img-dog, .img-rocks, .img-silhouette, .img-therapy {
     height: 20em;
