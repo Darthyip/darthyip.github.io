@@ -21,7 +21,7 @@ hr {
 
 .brand {
   font-family: "Kaushan Script", Georgia, serif;
-  font-size: 2.3em;
+  font-size: 2.1em;
   margin: 0;
   padding: 20px 0 5px 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
@@ -134,7 +134,7 @@ hr {
 
 .sub-brand {
   font-family: "Verdana", Helvetica, sans-serif;
-  font-size: 1.5em;
+  font-size: 1.1em;
   margin: 0 0 20px 0;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
 }
