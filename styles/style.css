@@ -185,7 +185,7 @@ hr {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   h2 {
     font-size: 2em;
   }
