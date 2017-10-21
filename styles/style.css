@@ -5,7 +5,7 @@ body {
    * https://www.pexels.com/photo-license/
    */
   background-attachment: fixed;
-  background-image: url("../images/background.jpeg");
+  background-image: url("../images/background.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,14 +90,6 @@ html, body {
   text-align: center;
 }
 
-.img-dog, .img-rocks, .img-silhouette, .img-therapy {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 14em;
-  margin: auto;
-  width: 100%;
-}
-
 .footer-fixed {
   background-color: rgba(255, 255, 255, 0.8);
   height: 105px;
@@ -107,13 +99,30 @@ html, body {
   width: 100%;
 }
 
+.img-about, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14em;
+  margin: auto;
+  width: 100%;
+}
+
+.img-about {
+  /*!
+   * Photo by Andrea Cirrito
+   */
+  background-image: url("../images/about.jpg");
+  background-position: center;
+  margin-bottom: 30px;
+}
+
 .img-dog {
   /*!
    * Photo by Pixabay
    * https://www.pexels.com/photo/golden-retriever-dog-wearing-red-collar-56012/
    * https://www.pexels.com/photo-license/
    */
-  background-image: url("../images/dog.jpeg");
+  background-image: url("../images/dog.jpg");
   background-position: 20%;
   margin-top: 15px
 }
@@ -124,7 +133,7 @@ html, body {
    * https://www.pexels.com/photo/balance-macro-ocean-pebbles-235990/
    * https://www.pexels.com/photo-license/
    */
-  background-image: url("../images/rocks.jpeg");
+  background-image: url("../images/rocks.jpg");
   background-position: 90%;
   margin-top: 15px;
 }
@@ -135,7 +144,7 @@ html, body {
    * https://www.pexels.com/photo/backlit-beach-clouds-dawn-531089/
    * https://www.pexels.com/photo-license/
    */
-  background-image: url("../images/silhouette.jpeg");
+  background-image: url("../images/silhouette.jpg");
   background-position: 35%;
   margin-bottom: 30px;
 }
@@ -146,7 +155,7 @@ html, body {
    * https://www.pexels.com/photo/aromatherapy-bamboo-basket-candlelight-259810/
    * https://www.pexels.com/photo-license/
    */
-  background-image: url("../images/therapy.jpeg");
+  background-image: url("../images/therapy.jpg");
   background-position: 70%; 
   margin-bottom: 30px;
 }
@@ -191,7 +200,7 @@ html, body {
   .card-text, .card-text-center, .list-center {
     font-size: 1em;
   }
-  .img-dog, .img-rocks, .img-silhouette, .img-therapy {
+  .img-about, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
     height: 16em;
     width: 80%;
   }
@@ -206,6 +215,10 @@ html, body {
   }
   .brand {
     font-size: 4em;
+  }
+  .img-about {
+    height: 36em;
+    width: 100%;
   }
   .img-dog, .img-rocks, .img-silhouette, .img-therapy {
     height: 22em;
