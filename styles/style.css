@@ -99,7 +99,7 @@ html, body {
   width: 100%;
 }
 
-.img-about, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
+.img-bridge, .img-about, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
   background-repeat: no-repeat;
   background-size: cover;
   height: 14em;
@@ -114,6 +114,16 @@ html, body {
   background-image: url("../images/about.jpg");
   background-position: center;
   margin-bottom: 30px;
+}
+
+.img-bridge {
+  /*!
+   * Photo by Snapwire
+   * https://www.pexels.com/photo/beautiful-bridge-daylight-environment-234510/
+   * https://www.pexels.com/photo-license/
+   */
+  background-image: url("../images/bridge.jpg");
+  background-position: bottom;
 }
 
 .img-dog {
@@ -200,7 +210,7 @@ html, body {
   .card-text, .card-text-center, .list-center {
     font-size: 1em;
   }
-  .img-about, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
+  .img-bridge, .img-about, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
     height: 16em;
     width: 80%;
   }
@@ -218,6 +228,10 @@ html, body {
   }
   .img-about {
     height: 36em;
+    width: 100%;
+  }
+  .img-bridge {
+    height: 28em;
     width: 100%;
   }
   .img-dog, .img-rocks, .img-silhouette, .img-therapy {
