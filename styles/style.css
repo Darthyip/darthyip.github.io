@@ -32,12 +32,12 @@ html, body {
 .brand {
   font-family: "Kaushan Script", Georgia, serif;
   font-size: 1.9em;
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 0 5px 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
 }
 
-.brand, .sub-brand {
+.brand, .brand a, .sub-brand, .sub-brand a {
   background-color: transparent;
   color: rgba(220, 130, 30, 1);
   text-align: center;
