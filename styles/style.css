@@ -10,7 +10,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;
 }
 
 h2 {
@@ -218,6 +217,9 @@ hr {
 }
 
 @media (min-width: 992px) {
+  body {
+    background-attachment: fixed;
+  }
   h2 {
     font-size: 2em;
   }
