@@ -23,6 +23,10 @@ hr {
   width: 75%;
 }
 
+a.anchor-header {
+  text-decoration: none;
+}
+
 span.text-break {
   display: inline-block;
 }
