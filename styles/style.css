@@ -23,6 +23,10 @@ hr {
   width: 75%;
 }
 
+span.text-break {
+  display: inline-block;
+}
+
 .brand {
   font-family: "Kaushan Script", Georgia, serif;
   font-size: 1.9em;
