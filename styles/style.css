@@ -4,12 +4,10 @@ body {
    * https://www.pexels.com/photo/background-beautiful-clouds-cloudscape-552789/
    * https://www.pexels.com/photo-license/
    */
-  height: 125%;
-  min-height: 125%;
+  background-attachment: fixed;
   background-image: url("../images/background.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
 }
 
@@ -23,11 +21,6 @@ hr {
   display:block;
   height: 1px;
   width: 75%;
-}
-
-html {
-  height: 125%;
-  min-height: 125%;
 }
 
 .brand {
