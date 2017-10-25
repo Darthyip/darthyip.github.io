@@ -105,6 +105,14 @@ span.text-break {
   text-align: center;
 }
 
+.img-about, .img-bridge, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 14em;
+  margin: auto;
+  width: 100%;
+}
+
 .img-about {
   /*!
    * Photo by Andrea Cirrito
@@ -112,14 +120,6 @@ span.text-break {
   background-image: url("../images/about.jpg");
   background-position: center;
   margin-bottom: 30px;
-}
-
-.img-about, .img-bridge, .img-dog, .img-rocks, .img-silhouette, .img-therapy {
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 14em;
-  margin: auto;
-  width: 100%;
 }
 
 .img-bridge {
